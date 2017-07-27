@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6403fbc9-18e6-4c11-be2b-83b5a0e998d5" name="Default" comment="init file">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/load-more.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/load.html" afterPath="$PROJECT_DIR$/load-test.html" />
+    <list default="true" id="6403fbc9-18e6-4c11-be2b-83b5a0e998d5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -34,8 +30,8 @@
       <file leaf-file-name="load-test.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/load-test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -65,6 +61,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="zuomeng &lt;dmate@foxmail.com&gt;" />
         <option value="https://github.com/izuomeng/slideup-to-loadmore.git" />
         <option value="cyf" />
       </list>
@@ -77,6 +74,7 @@
         <option value="$PROJECT_DIR$/load-more.js" />
         <option value="$PROJECT_DIR$/css/style.scss" />
         <option value="$PROJECT_DIR$/load.html" />
+        <option value="$PROJECT_DIR$/load-test.html" />
       </list>
     </option>
   </component>
@@ -150,6 +148,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -235,12 +234,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501124337855</updated>
-      <workItem from="1501124340468" duration="780000" />
+      <workItem from="1501124340468" duration="1216000" />
     </task>
+    <task id="LOCAL-00001" summary="init file">
+      <created>1501127127557</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1501127127557</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="780000" />
+    <option name="totallyTimeSpent" value="1216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -297,8 +304,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/load-test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
