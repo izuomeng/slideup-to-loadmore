@@ -8,6 +8,10 @@
 </head>
 <body>
 <div class="content"></div>
-
+<div class="loading"></div>
+<script>
+    var load = new LoadMore(document.getElementsByClassName('content')[0], document.getElementsByClassName('loading')[0]);
+    load.init();
+</script>
 </body>
 </html>
