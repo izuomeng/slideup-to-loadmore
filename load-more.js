@@ -15,17 +15,26 @@ var LoadMore = (function () {
             var windowHeight = window.innerHeight || document.documentElement.clientHeight;
             if (screenY <= windowHeight) {
                 requestData(this);
+                this.loading.style.display = 'block';
+                this.loading.innerHTML = '加载中...';
             }
+        },
+        init : function () {
+            window.onload = requestData(this);
+            window.onscroll = this.scrollEvent.bind(this);
         }
     };
     function requestData(o) {
         var request = new XMLHttpRequest();
-        request.open('get', '../sentData.php');
+        request.open('get', 'sentData.php?cursor='+cursor);
+        cursor += 10;
         request.onreadystatechange = function () {
             if (request.readyState === 4 && request.status === 200) {
+                o.loading.style.display = 'none';
                 showData(o.content, request.responseText);
             }
-        }
+        };
+        request.send(null);
     }
     function showData(content, data) {
         var fragment = document.createDocumentFragment(),
@@ -41,4 +50,5 @@ var LoadMore = (function () {
             content.appendChild(fragment);
         }
     }
+    return LoadMore;
 })();

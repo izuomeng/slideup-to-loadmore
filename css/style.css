@@ -3,11 +3,13 @@
 
 .content {
   padding: 20px;
-  font-size: 4em; }
+  font-size: 2em; }
 
 .loading {
   text-align: center;
-  padding: 30px;
-  font-size: 3em; }
+  font-size: 100%;
+  color: cornflowerblue;
+  word-break: break-all;
+  word-wrap: break-word; }
 
 /*# sourceMappingURL=style.css.map */
